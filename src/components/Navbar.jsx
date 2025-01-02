@@ -18,12 +18,12 @@ const Navbar = () => {
   const socials = [
     { 
       name: 'GitHub',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/sanikaap',
       icon: FaGithub 
     },
     { 
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://linkedin.com/in/sanika-patil-8623a5223',
       icon: FaLinkedin 
     }
   ];
