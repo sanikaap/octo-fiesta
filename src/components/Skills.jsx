@@ -24,9 +24,9 @@ const Skills = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white rounded-lg shadow-lg p-6"
+              className="card text-slate-50 rounded-lg shadow-lg p-6"
             >
-              <h3 className="text-xl font-semibold text-black mb-4">
+              <h3 className="text-xl font-semibold text-slate-50 mb-4">
                 {skillGroup.category}
               </h3>
               <div className="flex flex-wrap gap-2">

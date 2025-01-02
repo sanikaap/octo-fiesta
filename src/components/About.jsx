@@ -16,21 +16,21 @@ const About = () => {
         <p className="text-xl text-slate-50 mb-8">
           A passionate web developer specializing in modern web technologies.
         </p>
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+        <div className="card  py-3  ">
+          <h2 className="text-2xl font-semibold text-slate-50 mb-4">
             About Me
           </h2>
-          <p className="text-gray-600 mb-4">
+          <p className="text-slate-50 mb-4">
           Aspiring Software Developer with a
           problem-solving mindset and a passion for creating impactful solutions
           through innovation and collaboration. I am a recent graduate from the Sveri College Of Engineering with a
           Bachelor's degree in Computer Science. My interests include web development, Data Analytics and Machine Learning, and exploring new technologies.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+            <button className="btn text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
               Download CV
             </button>
-            <button className="border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50 transition-colors">
+            <button className="border-2 btn border-blue-600 text-blue-600 px-6 py-2 rounded-full  transition-colors">
               Contact Me
             </button>
           </div>

@@ -19,7 +19,7 @@ const Education = () => {
       transition={{ duration: 0.5 }}
       className="py-20"
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto ">
         <h2 className="text-3xl font-bold text-slate-50 mb-12">Education</h2>
         <div className="space-y-8">
           {education.map((edu, index) => (
@@ -28,16 +28,16 @@ const Education = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white rounded-lg shadow-lg p-6"
+              className="card rounded-lg shadow-lg p-6"
             >
               <div className="flex flex-col md:flex-row justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800">{edu.degree}</h3>
+                  <h3 className="text-xl font-semibold text-slate-50">{edu.degree}</h3>
                   <p className="text-blue-600">{edu.school}</p>
                 </div>
                 <span className="text-gray-500 mt-2 md:mt-0">{edu.duration}</span>
               </div>
-              <p className="text-gray-600 mb-4">{edu.details}</p>
+              <p className="text-slate-50 mb-4">{edu.details}</p>
               <div className="flex flex-wrap gap-2">
                 {edu.courses.map((course, i) => (
                   <span 

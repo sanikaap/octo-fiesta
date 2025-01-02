@@ -38,11 +38,11 @@ const Experience = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      className="py-20 bg-gradient-to-r from-slate-900 to-slate-800"
+      animate={{ opacity: 1.5 }}
+      transition={{ duration: 0.75 }}
+      className="py-20 "
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto ">
         <h2 className="text-3xl font-bold text-slate-50 mb-12 text-center">Experience</h2>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
@@ -53,16 +53,16 @@ const Experience = () => {
               transition={{ delay: index * 0.2, type: 'spring', stiffness: 100 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
+              className="card rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
             >
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800">{exp.title}</h3>
+                  <h3 className="text-xl font-semibold text-slate-50">{exp.title}</h3>
                   <p className="text-blue-600">{exp.company}</p>
                 </div>
-                <span className="text-gray-500 mt-2 md:mt-0">{exp.duration}</span>
+                <span className="text-slate-50 mt-2 md:mt-0">{exp.duration}</span>
               </div>
-              <ul className="list-disc list-inside text-gray-600 space-y-2">
+              <ul className="list-disc list-inside text-slate-50 space-y-2">
                 {exp.description.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
