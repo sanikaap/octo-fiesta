@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-gray-900"
+              className="text-slate-200 hover:text-slate-50 focus:outline-none"
             >
               {isOpen ? (
                 <HiX className="h-6 w-6" />
