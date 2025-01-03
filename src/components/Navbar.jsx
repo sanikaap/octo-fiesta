@@ -73,9 +73,9 @@ const Navbar = () => {
               className="text-slate-200 hover:text-slate-50 focus:outline-none"
             >
               {isOpen ? (
-                <HiX className="h-6 w-6" />
+                <HiX className="h-6 w-6 text-slate-200" />
               ) : (
-                <HiMenu className="h-6 w-6" />
+                <HiMenu className="h-6 w-6 text-slate-200" />
               )}
             </button>
           </div>
