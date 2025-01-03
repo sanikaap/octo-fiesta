@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-slate-50 hover:bg-slate-500 transition-colors font-semibold px-3 py-2 rounded-md text-sm font-medium"
+                className="text-slate-50 hover:bg-slate-500 transition-colors font-semibold px-3 py-2 rounded-md text-sm"
               >
                 {item.name}
               </Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-200 hover:text-slate-50 focus:outline-none"
+              className="text-slate-900 hover:text-slate-50 focus:outline-none"
             >
               {isOpen ? (
                 <HiX className="h-6 w-6 text-slate-200" />
