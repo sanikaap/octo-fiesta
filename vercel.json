@@ -1,0 +1,11 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "dest": "/index.html" }
+    ],
+    "images": {
+      "domains": ["localhost"],
+      "formats": ["image/avif", "image/webp"],
+      "sizes": [640, 750, 828, 1080, 1200]
+    }
+  }

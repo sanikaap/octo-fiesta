@@ -1,24 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import projectImage1 from '../assets/asd.png'
+import projectImage2 from '../assets/ms.png'
+import projectImage3 from '../assets/Tc.png'
 
 const projects = [
     {
         title: 'AUTISM SPECTRUM DISORDER DETECTION USING MACHINE LEARNING',
         description: 'Spearheaded an investigation into machine learning methods for detecting Autism Spectrum Disorder (ASD), driving innovation in diagnostic precision through advanced algorithm development',
         link: '#',
-        image: 'src/assets/asd.png'
+        image: projectImage1
     },
     {
         title: 'MATCH PREDICTIONS AND ANALYSIS USING ML',
         description: 'Created a predictive model trained on the IPL dataset to forecast match scores and winners based on overs and balls, greatly enhancing analytical capabilities for sports analytics.',
         link: '#',
-        image: 'src/assets/ms.png'
+        image: projectImage2
     },
     {
         title: 'TWITTER CLONE - USING NEXT.JS',
         description: 'Crafted reusable UI components for tweets, user profiles, comments, and likes using Tailwind CSS classes, resulting in a responsive and engaging user interface.',
         link: '#',
-        image: 'src/assets/Tc.png'
+        image: projectImage3
     }
 ];
 
